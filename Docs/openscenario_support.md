@@ -86,8 +86,8 @@ contains of submodules, which are not listed, the support status applies to all 
 |LateralAction - LateralDistanceAction | No | No | |
 |VisibilityAction         | No  | No | |
 |SynchronizeAction        | No  | No | |
-|ActivateControllerAction | No  | Yes* | Only supports the autopilot at the moment |
-|ControllerAction         | No  | No  | |
+|ActivateControllerAction | No  | No | |
+|ControllerAction         | Yes*| Yes* | AssignControllerAction is supported, but a Python module has to be provided for the controller implementation, and in OverrideControllerValueAction all values need to be 'False'|
 |TeleportAction           | Yes | Yes | |
 |RoutingAction - AssignRouteAction      | No | Yes | |
 |RoutingAction - FollowTrajectoryAction | No | No  | |
